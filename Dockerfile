@@ -1,6 +1,6 @@
-FROM ubuntu:18.04
+FROM centos:7
 
-RUN apt-get update &&  apt-get install httpd -y
+RUN yum update &&  yum install httpd -y
 
 RUN rm -rf  /var/www/html/*
 
