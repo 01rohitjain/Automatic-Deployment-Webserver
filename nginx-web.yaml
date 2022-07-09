@@ -23,4 +23,4 @@ spec:
       volumes:
         - name: webvol
           hostPath:
-            path: /var/lib/jenkins/workspace/Auto_Web_Update/webpage/
+            path: /var/lib/jenkins/workspace/Auto_Web_Update/webpage
